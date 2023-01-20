@@ -1,0 +1,29 @@
+//Declare color variables
+$bgColor: #13005A;
+$txtColor: #1C82AD;
+$actColor: #03C988;
+$hiLight: #00337C;
+
+//Declare font variables
+$headFont: Oswald, sans-serif;
+$headSize: 1.3em;
+$bodyFont: Lato, sans-serif;
+$bodySize: 1.0em;
+
+header {
+    font-family: $headFont;
+    font-size: $headSize;
+    color: $txtColor; 
+}
+
+body {
+    font-family: $bodyFont;
+    font-size: $bodySize;
+    background-color: $bgColor;
+    color: $txtColor;
+
+    a {
+        text-decoration: none;
+        color: $actColor;
+    }
+}
